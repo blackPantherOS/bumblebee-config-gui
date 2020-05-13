@@ -1,0 +1,21 @@
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
+
+"""
+@author: Charles K Barcza (blackPanter OS) and old python2:Alessandro Facciorusso
+"""
+
+import os
+import sys
+from bumblebee_config.BumblebeeMainWindow import BumblebeeMainWindow
+
+if __name__ == '__main__':
+    if os.geteuid() != 0:
+        try:
+            os.execvp("gksudo", ["sudo"] + sys.argv)
+        except:
+            print ("Error: please run this program with 'sudo bumblebee-conf'.")
+            sys.exit(1)
+
+    wnd = BumblebeeMainWindow()
+    wnd.run()

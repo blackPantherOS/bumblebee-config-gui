@@ -1,0 +1,35 @@
+0.7.0:
+ * Ported to Python3
+ * add systemctl support
+ * added icon
+ * disable apt only for ubuntu
+
+0.6.3b:
+ * corrected apt.close() error
+ * corrected error on boot gksudo 
+
+0.6.2b:
+ * Updated to match to Bumblebee 3.2 settings
+ * Code changes
+
+0.6.1b:
+ * Bug corrections and code changes
+
+0.6.0a:
+ * Rewritten GUI; now the old window is a dialog
+ * Install Bumblebee feature!!
+
+0.5.1a:
+ * Made icon
+ * Added .desktop file and icon installation
+ * Some translation corretions
+ * Corrected MANIFEST.in
+
+0.5.0a:
+ * Added translation files. I know: it doesn't install l10n files into default translation 
+   directory of the OS, but I am working on...
+ * Added description of each parameter, and relative translations
+ * GUI enhancements
+
+0.4.0a:
+ * Rewritten widget settings system, added version Window title changing. Switched to version 0.4.0a.

@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: bumblebee-config-gui
+Version: 0.7.0
+Summary: Graphical Utility for BumblebeeD
+Home-page: https://github.com/blackPantherOS/bumblebee-config-gui
+Author: Charles K Barcza
+Author-email: info@blackpanther.hu
+License: GNU General Public License (GPL3)
+Description: Ported Python2 based Bumblebee-Config-Gtk to Python3-Gtk3
+Platform: Linux

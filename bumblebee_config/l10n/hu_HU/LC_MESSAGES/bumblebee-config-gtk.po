@@ -1,0 +1,306 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-12 20:50+0200\n"
+"PO-Revision-Date: 2020-05-12 21:03+0200\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"Last-Translator: Barcza Károly <kbarcza@blackpanther.hu>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: hu_HU\n"
+
+#: AptHelper.py:55
+msgid "Configuring..."
+msgstr "Beállítás..."
+
+#: BumblebeeConfig.py:68 BumblebeeMainWindow.py:43
+msgid "Bumblebee Configurator GUI"
+msgstr "Bumblebee beállítófelület"
+
+#: BumblebeeConfig.py:81 BumblebeeMainWindow.py:83
+msgid "Executing 'services bumblebeed restart':"
+msgstr "A \"szolgaltatasok bumblebeed ujrainditas\" futtatása:"
+
+#: BumblebeeConfig.py:83
+msgid "Checking bumblebeed status:"
+msgstr "Bumblebee állapotellenőrzés:"
+
+#: BumblebeeConfig.py:87 BumblebeeMainWindow.py:87 BumblebeeMainWindow.py:99
+msgid "Bumblebee output"
+msgstr "Bumblebee kimenet"
+
+#: BumblebeeConfig.py:92
+msgid "Settings saved."
+msgstr "Beállítások elmentve."
+
+#: BumblebeeMainWindow.py:56 BumblebeeMainWindow.py:74
+msgid "Reinstall Bumblebee"
+msgstr "Bumblebee újratelepítése"
+
+#: BumblebeeMainWindow.py:59 main_window.ui.h:5
+msgid "Install Bumblebee"
+msgstr "Bumblebee telepítése"
+
+#: BumblebeeMainWindow.py:95
+msgid "Bumblebeed status:"
+msgstr "Bumblebeed állapota:"
+
+#: InstallProgressDialog.py:16
+msgid "Bumblebee is installing..."
+msgstr ""
+
+#: InstallProgressDialog.py:51
+msgid "Downloading files..."
+msgstr ""
+
+#: conf_window.ui.h:1
+msgid "Save"
+msgstr "Mentés"
+
+#: conf_window.ui.h:2
+msgid "Quit"
+msgstr "Abbahagyás"
+
+#: conf_window.ui.h:3
+msgid "The secondary Xorg server display number."
+msgstr "Másodlagos Xorg szerver képernyőszáma."
+
+#: conf_window.ui.h:4
+msgid "Virtual display"
+msgstr "Virtuális kijelző"
+
+#: conf_window.ui.h:5
+msgid ""
+"Should the unused Xorg server be kept running? Set this to true if waiting "
+"for X to be ready is too long and don't need power management at all."
+msgstr ""
+
+#: conf_window.ui.h:6
+msgid "Keep unused XServer"
+msgstr ""
+
+#: conf_window.ui.h:7
+msgid "True"
+msgstr "Igaz"
+
+#: conf_window.ui.h:8
+msgid "False"
+msgstr ""
+
+#: conf_window.ui.h:9
+msgid "The name of the Bumbleblee server group name (GID name)."
+msgstr ""
+
+#: conf_window.ui.h:10
+msgid "Server group"
+msgstr "Szervercsoport"
+
+#: conf_window.ui.h:11
+msgid ""
+"Card power state at exit. Set to false if the card shoud be ON when "
+"Bumblebee server exits."
+msgstr ""
+
+#: conf_window.ui.h:12
+msgid "Turn card off at exit"
+msgstr "Kapcsolja ki a kártyát kilépéskor"
+
+#: conf_window.ui.h:13
+msgid ""
+"The default behavior of '-f' option on optirun. \n"
+"If set to \"true\", '-f' will be ignored."
+msgstr ""
+
+#: conf_window.ui.h:15
+msgid "No eco mode override"
+msgstr ""
+
+#: conf_window.ui.h:16
+msgid ""
+"The Driver used by Bumblebee server. If this value is not set (or empty), "
+"auto-detection is performed."
+msgstr ""
+
+#: conf_window.ui.h:17
+msgid "Driver"
+msgstr "Illesztőprogram"
+
+#: conf_window.ui.h:18
+msgid "--"
+msgstr ""
+
+#: conf_window.ui.h:19
+msgid "nVidia"
+msgstr ""
+
+#: conf_window.ui.h:20
+msgid "Nouveau"
+msgstr ""
+
+#: conf_window.ui.h:21
+msgid ""
+"Directory with a dummy config file to pass as a -configdir to secondary X."
+msgstr ""
+
+#: conf_window.ui.h:22
+msgid "Xorg Config Directory"
+msgstr "Xorg beállításkönyvtár:"
+
+#: conf_window.ui.h:23
+msgid "Bumblebeed"
+msgstr ""
+
+#: conf_window.ui.h:24
+msgid "Acceleration/ rendering bridge."
+msgstr "Gyorsító/leképző-híd."
+
+#: conf_window.ui.h:25
+msgid "Bridge"
+msgstr "Híd"
+
+#: conf_window.ui.h:26
+msgid "The method used for VirtualGL to transport frames between X servers."
+msgstr ""
+
+#: conf_window.ui.h:27
+msgid "VGL transport method"
+msgstr ""
+
+#: conf_window.ui.h:28
+msgid ""
+"Should the program run under optirun even if Bumblebee server or nvidia card "
+"is not available?"
+msgstr ""
+
+#: conf_window.ui.h:29
+msgid "Allow fallback to IGC"
+msgstr ""
+
+#: conf_window.ui.h:30
+msgid "auto"
+msgstr "auto"
+
+#: conf_window.ui.h:31
+msgid "virtualgl"
+msgstr ""
+
+#: conf_window.ui.h:32
+msgid "primus"
+msgstr ""
+
+#: conf_window.ui.h:33
+msgid "proxy"
+msgstr "proxy"
+
+#: conf_window.ui.h:34
+msgid "jpeg"
+msgstr ""
+
+#: conf_window.ui.h:35
+msgid "rgb"
+msgstr ""
+
+#: conf_window.ui.h:36
+msgid "xv"
+msgstr ""
+
+#: conf_window.ui.h:37
+msgid "yuv"
+msgstr ""
+
+#: conf_window.ui.h:38
+msgid ""
+"List of paths which are searched for the primus libGL.so.1 when using the "
+"primus bridge."
+msgstr ""
+
+#: conf_window.ui.h:39
+msgid "Primus Library Path"
+msgstr ""
+
+#: conf_window.ui.h:40
+msgid "Optirun"
+msgstr ""
+
+#: conf_window.ui.h:41
+msgid "Module name to load, defaults to Driver if empty or unset."
+msgstr ""
+
+#: conf_window.ui.h:42
+msgid "Kernel driver"
+msgstr ""
+
+#: conf_window.ui.h:43
+msgid "Colon-separated path to the nvidia libraries"
+msgstr ""
+
+#: conf_window.ui.h:44
+msgid "Library path"
+msgstr ""
+
+#: conf_window.ui.h:45
+msgid ""
+"Method to use for saving power by disabling the nvidia card.\n"
+"auto - automatically detect which PM method to use;\n"
+"bbswitch - new in BB 3, recommended if available;\n"
+"switcheroo - vga_switcheroo method, use at your own risk;\n"
+"none - disable PM completely."
+msgstr ""
+
+#: conf_window.ui.h:50
+msgid "PM method"
+msgstr "Energiakezelési mód"
+
+#: conf_window.ui.h:51
+msgid "Comma-separated path of the directory containing nvidia_drv.so."
+msgstr ""
+"Mappák útvonala vesszővel elválasztva amelyek tartalmazzák az nvidia_drv.so-"
+"t."
+
+#: conf_window.ui.h:52
+msgid "Xorg module path"
+msgstr "Xorg modul útvonal"
+
+#: conf_window.ui.h:53
+msgid ""
+"Comma-separated path of the directory containing the default Xorg modules "
+"path."
+msgstr ""
+"Az alapértelmezett Xorg-modulok elérési útvonalai vesszővel elválasztva."
+
+#: conf_window.ui.h:54
+msgid "Xorg conf file"
+msgstr "Xorg beállítófájl"
+
+#: conf_window.ui.h:55
+msgid ""
+"Method to use for saving power by disabling the nvidia card.\n"
+"auto - automatically detect which PM method to use."
+msgstr ""
+"Energiatakarékosság az Nvidia-kártya letiltásával.\n"
+"auto - automatikusan felismeri, hogy melyik PM-módszert használja."
+
+#: main_window.ui.h:1
+msgid "<b><big>Select the operation to perform:</big></b>"
+msgstr "<b><big>Válassza ki a végrehajtandó műveletet:</big></b>"
+
+#: main_window.ui.h:2
+msgid "Configure Bumblebee"
+msgstr "Bumblebee beállítása"
+
+#: main_window.ui.h:3
+msgid "Restart Bumblebee"
+msgstr "Bumblebee újraindítása"
+
+#: main_window.ui.h:4
+msgid "Check Bumblebee status"
+msgstr "Bumblebee ellenőrzése"
