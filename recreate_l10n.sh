@@ -1,5 +1,4 @@
 #!/bin/sh
-# -*- coding: utf-8 -*-
 
 cd bumblebee_config
 

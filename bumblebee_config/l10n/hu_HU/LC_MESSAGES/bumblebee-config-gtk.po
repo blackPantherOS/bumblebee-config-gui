@@ -90,11 +90,11 @@ msgstr ""
 
 #: conf_window.ui.h:7
 msgid "True"
-msgstr "Igaz"
+msgstr "Engedélyez"
 
 #: conf_window.ui.h:8
 msgid "False"
-msgstr ""
+msgstr "Megtilt"
 
 #: conf_window.ui.h:9
 msgid "The name of the Bumbleblee server group name (GID name)."
@@ -136,11 +136,11 @@ msgstr "Illesztőprogram"
 
 #: conf_window.ui.h:18
 msgid "--"
-msgstr ""
+msgstr "--"
 
 #: conf_window.ui.h:19
 msgid "nVidia"
-msgstr ""
+msgstr "nVidia"
 
 #: conf_window.ui.h:20
 msgid "Nouveau"

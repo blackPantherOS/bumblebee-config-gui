@@ -12,11 +12,10 @@ PKG_NAME = "bumblebee_config"
 
 pkg_data = {PKG_NAME: ["*.ui", "l10n/*/*/*"]}
 
-other_files = [("/usr/share/applications", ["bumblebee-config.desktop"]), ("/usr/share/icons", ["img/bumblebee-config.png"])]
+other_files = [("/usr/share/applications", ["bumblebee-config-gui.desktop"]), ("/usr/share/icons", ["img/bumblebee-config-gui.png"])]
 
-
-setup(name="bumblebee-config-gtk",
-      version="0.7.0",
+setup(name="bumblebee-config-gui",
+      version="0.7.1",
       author="Charles K Barcza",
       author_email='info@blackpanther.hu',
       url='https://github.com/blackPantherOS/bumblebee-config-gui',
@@ -24,5 +23,5 @@ setup(name="bumblebee-config-gtk",
       packages=[PKG_NAME],
       package_data=pkg_data,
       data_files=other_files,
-      scripts=["bumblebee-config"]
+      scripts=["bumblebee-config-gui"]
       )
