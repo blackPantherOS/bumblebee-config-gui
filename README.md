@@ -16,8 +16,8 @@ Install from Source:
 
  - git clone https://github.com/blackPantherOS/bumblebee-config-gui.git
  - cd bumblebee-config-gui
- - python3 setup build
- - python3 setup install
+ - python3 setup.py build
+ - python3 setup.py install
 
 Dependencies
 ------------
