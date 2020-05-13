@@ -22,4 +22,4 @@ Install from Source:
 Dependencies
 ------------
 Distrospecific Python3 Gtk3 components (gi) example:
- - Python3-gobject(3)
+ - Python3-gobject(3)/python3-gi
