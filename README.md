@@ -1,5 +1,11 @@
-# Bumblebee Config GUI
+# Bumblebee Config GUI (DESTROYED)
 Graphical Utility for BumblebeeD configuration
+
+# We don’t want to develop and support people who don’t respect the work of others.
+# We reject any form of discrimination. We will not develop this driver in the future,
+# Our response to each destruction is to delete one of our source codes
+# This loss thanks to a persons named:DGG,Bbb23,Joe Decker,Explicit who deleted the blackPanther OS' English Wiki page!
+https://en.wikipedia.org/w/index.php?title=Special%3ALog%2Fdelete&page=BlackPanther_OS
 
 Screenshot
 -----------

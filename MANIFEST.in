@@ -1,8 +1,0 @@
-include MANIFEST.in
-include NEWS
-include README
-include LICENSE
-include bumblebee-config.desktop
-include recreate_l10n.sh
-recursive-include img *.png *.svg
-recursive-include bumblebee_config *.py *.ui *.pot *.po *.mo
